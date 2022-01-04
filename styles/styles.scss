@@ -103,7 +103,7 @@ p {
 }
 
 .testimonial.icon {
-  background-image: url(DanK1368/testimonials_grid_section/images/bg-pattern-quotation.svg);
+  background-image: url(/testimonials_grid_section/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: top right 3rem;
 }
@@ -122,6 +122,7 @@ p {
 
 .testimonial {
   border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
 
   .highlight-text {
     padding: 0rem 2rem 2rem 2rem;
