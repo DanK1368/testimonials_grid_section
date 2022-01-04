@@ -28,7 +28,11 @@ p {
   gap: 2rem;
   place-content: center;
   grid-auto-columns: 1fr;
-      grid-template-areas: "review--1" "review--2" "review--3" "review--4" "review--5";
+      grid-template-areas: "review--1"
+ "review--2"
+ "review--3"
+ "review--4"
+ "review--5";
   padding: 3rem 3rem;
 }
 
@@ -97,7 +101,7 @@ p {
 }
 
 .testimonial.icon {
-  background-image: url(/images/bg-pattern-quotation.svg);
+  background-image: url(/testimonials_grid_section/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: top right 3rem;
 }
@@ -144,13 +148,17 @@ p {
 
 @media screen and (min-width: 650px) {
   .testimonial-wrapper {
-        grid-template-areas: "review--1 review--1" "review--2 review--3" "review--4 review--4" "review--5 review--5";
+        grid-template-areas: "review--1 review--1"
+ "review--2 review--3"
+ "review--4 review--4"
+ "review--5 review--5";
   }
 }
 
 @media screen and (min-width: 900px) {
   .testimonial-wrapper {
-        grid-template-areas: "review--1 review--1 review--2 review--5" "review--3 review--4 review--4 review--5";
+        grid-template-areas: "review--1 review--1 review--2 review--5"
+ "review--3 review--4 review--4 review--5";
     max-width: 130rem;
     margin: auto;
   }
